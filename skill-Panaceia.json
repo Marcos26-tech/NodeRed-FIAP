@@ -1,0 +1,2441 @@
+{
+  "intents": [
+    {
+      "intent": "alimentação",
+      "examples": [
+        {
+          "text": "1 - Alimentação saudável."
+        },
+        {
+          "text": "alimentação saudável"
+        },
+        {
+          "text": "alimentação saudável é melhor ?"
+        },
+        {
+          "text": "café da manhã almoço jantar"
+        },
+        {
+          "text": "comida saudável é melhor porque?"
+        },
+        {
+          "text": "comida vegana"
+        },
+        {
+          "text": "comida vegana faz mal?"
+        },
+        {
+          "text": "desjejum saudável é melhor panaceia?"
+        },
+        {
+          "text": "mantimentos saudáveis"
+        },
+        {
+          "text": "minha opção é Alimentação saudável."
+        },
+        {
+          "text": "o que podemos comer de alimentos saudáveis"
+        },
+        {
+          "text": "por que devo comer comida saudável"
+        },
+        {
+          "text": "quais as comida saudáveis vc recomenda?"
+        },
+        {
+          "text": "quero falar sobre alimentação saudável"
+        },
+        {
+          "text": "vamos falar sobre alimentação saudavel?"
+        }
+      ],
+      "description": "Descrição de perguntas para alimentação saudável"
+    },
+    {
+      "intent": "amada",
+      "examples": [
+        {
+          "text": "como posso ser amada?"
+        },
+        {
+          "text": "estou determinada a ser mais amada como você pode me ajudar?"
+        },
+        {
+          "text": "eu desejo ser mais amada"
+        },
+        {
+          "text": "eu gostaria de ser mais amada"
+        },
+        {
+          "text": "eu mereço ser amada?"
+        },
+        {
+          "text": "gostaria de ter um amor"
+        },
+        {
+          "text": "meu proposito é ser mais amada"
+        },
+        {
+          "text": "nunca fui amada o suficiente"
+        },
+        {
+          "text": "porque eu não me sinto amada por ninguém ?"
+        },
+        {
+          "text": "quero encontrar um amor?"
+        },
+        {
+          "text": "quero ser amada?"
+        },
+        {
+          "text": "que ser mais amada como melhorar?"
+        },
+        {
+          "text": "tenho a intensão de ser mais amada"
+        },
+        {
+          "text": "tenho interesse em ser mais amada"
+        },
+        {
+          "text": "você acha que eu mereço ser mais amada?"
+        }
+      ],
+      "description": "Descrição de perguntas para quero ser amada?"
+    },
+    {
+      "intent": "Aprenda_dizer",
+      "examples": [
+        {
+          "text": "Aprenda a dizer NÃO para desenvolver o autocuidado"
+        },
+        {
+          "text": "aprender a a recusar atividades nocivas para desenvolver o autocuidado"
+        },
+        {
+          "text": "como aprender a dizer não?"
+        },
+        {
+          "text": "compreender o porque falar não é importante"
+        },
+        {
+          "text": "desejo aprender a dizer mais não"
+        },
+        {
+          "text": "desenvolver a falar não para desenvolver o autocuidado"
+        },
+        {
+          "text": "exercitar o não"
+        },
+        {
+          "text": "nunca sei dizer pode me ajudar estou precisando melhorar isso na minha vida"
+        },
+        {
+          "text": "por que não sei dizer não?"
+        },
+        {
+          "text": "preparar se para dizer não quando necessário"
+        },
+        {
+          "text": "quais a dica você pode me passar para aprender a falar não?"
+        },
+        {
+          "text": "quero aprender a dizer não para coisas que não gosto para melhorar meu autocuidado"
+        },
+        {
+          "text": "quero aprender a dizer não para melhor meu autocuidado"
+        },
+        {
+          "text": "quero dizer mais não panaceia pode me ajudar ?"
+        },
+        {
+          "text": "você poderia me dar dicas para aprender a dizer não?"
+        }
+      ],
+      "description": "Descrição de perguntas para Aprenda a dizer NÃO para desenvolver o autocuidado"
+    },
+    {
+      "intent": "autocuidado",
+      "examples": [
+        {
+          "text": "a minha escolhe é auto cuidado"
+        },
+        {
+          "text": "autocuidado?"
+        },
+        {
+          "text": "autocuidado é a minha escolha"
+        },
+        {
+          "text": "autocuidado é a minha escolha para iniciar a conversa"
+        },
+        {
+          "text": "autocuidado é a minha opção"
+        },
+        {
+          "text": "desejo falar sobre auto cuidado"
+        },
+        {
+          "text": "fale sobre auto cuidado?"
+        },
+        {
+          "text": "para que serve o autocuidado?"
+        },
+        {
+          "text": "porque você recomenda auto cuidado?"
+        },
+        {
+          "text": "quais os benefícios do autocuidado ?"
+        },
+        {
+          "text": "quero começar conversando com auto cuidado"
+        },
+        {
+          "text": "quero falar sobre auto cuidado"
+        },
+        {
+          "text": "vamos conversar sobre auto cuidado"
+        },
+        {
+          "text": "vamos falar sobre autocuidado"
+        },
+        {
+          "text": "vamos panaceia falar sobre autocuidado"
+        }
+      ],
+      "description": "Descrição da ação para iniciar a conversa sobre auto cuidado"
+    },
+    {
+      "intent": "comunidade",
+      "examples": [
+        {
+          "text": "como faço parte da comunidade?"
+        },
+        {
+          "text": "como posso fazer parte de uma comunidade ?"
+        },
+        {
+          "text": "comunidade é legal?"
+        },
+        {
+          "text": "desejo fazer parte de uma comunidade aqui no refugio"
+        },
+        {
+          "text": "desejo participar de uma comunidade"
+        },
+        {
+          "text": "é obrigatório fazer parte da comunidade?"
+        },
+        {
+          "text": "eu faço parte de uma comunidade"
+        },
+        {
+          "text": "não gosto de comunidade"
+        },
+        {
+          "text": "nunca participei de uma comunidade"
+        },
+        {
+          "text": "o que eu posso fazer nessa comunidade que você falou ?"
+        },
+        {
+          "text": "o que eu vou fazer na comunidade?"
+        },
+        {
+          "text": "o que posso encontrar nessa comunidade?"
+        },
+        {
+          "text": "o que posso fazer nessa comunidade que você fala?"
+        },
+        {
+          "text": "para que serve a comunidade?"
+        },
+        {
+          "text": "quero construir uma comunidade aqui"
+        }
+      ],
+      "description": "Descrição de perguntas para comunidade que será criada na página web \"refugio on-line'"
+    },
+    {
+      "intent": "Desenvolva",
+      "examples": [
+        {
+          "text": "como posso melhorar meu corpo fisico?"
+        },
+        {
+          "text": "como posso melhorar meu emprego?"
+        },
+        {
+          "text": "como posso melhorar meu relacionamento?"
+        },
+        {
+          "text": "como posso melhorar minha vida?"
+        },
+        {
+          "text": "como posso ser uma boa mae?"
+        },
+        {
+          "text": "como ser uma pessoa melhor panaceia?"
+        },
+        {
+          "text": "como você pode me ajudar a desenvolver autocuidado com exercícios físicos?"
+        },
+        {
+          "text": "Desenvolva o autocuidado com exercícios físicos"
+        },
+        {
+          "text": "devo praticar exercícios físicos?"
+        },
+        {
+          "text": "eu quero começar academia?"
+        },
+        {
+          "text": "exercícios físicos?"
+        },
+        {
+          "text": "exercícios físicos podem ajudar a desenvolver autocuidado?"
+        },
+        {
+          "text": "não tenho animo mais?"
+        },
+        {
+          "text": "quais as suas recomendações para autocuidado com exercícios físicos ?"
+        },
+        {
+          "text": "quero melhorar com exercícios físicos"
+        }
+      ],
+      "description": "Descrição de perguntas para Desenvolva o autocuidado com exercícios físicos"
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "amanha nos vemos denovo"
+        },
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "ate mais"
+        },
+        {
+          "text": "bjs panaceia"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "conversamos mais amanha"
+        },
+        {
+          "text": "dizer adeus"
+        },
+        {
+          "text": "eu me despeço aqui de você"
+        },
+        {
+          "text": "obrigado panaceia"
+        },
+        {
+          "text": "se cuida ate mais panaceia"
+        },
+        {
+          "text": "se cuida bjss"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "te vejo em prevê"
+        }
+      ],
+      "description": "Descrição para despedidas"
+    },
+    {
+      "intent": "educaçãoEmocional",
+      "examples": [
+        {
+          "text": "a minha opção é educação emocional"
+        },
+        {
+          "text": "como melhorar minha educação emocional?"
+        },
+        {
+          "text": "desejo começar com educação emocional"
+        },
+        {
+          "text": "desejo falar sobre Educação Emocional"
+        },
+        {
+          "text": "Educação Emocional ?"
+        },
+        {
+          "text": "educação emocional é a minha escolha"
+        },
+        {
+          "text": "educação emocional é a minha primeira escolha"
+        },
+        {
+          "text": "emocional é a minha escolha para começar a conversa"
+        },
+        {
+          "text": "emocional para serve?"
+        },
+        {
+          "text": "minha primeira escolha será educação emocional"
+        },
+        {
+          "text": "por que devo me preocupar com educação emocional?"
+        },
+        {
+          "text": "quero começar conversando sobre educação emocional"
+        },
+        {
+          "text": "quero falar sobre educação emocional"
+        },
+        {
+          "text": "todo mundo precisa aprender sobre educação emocional?"
+        },
+        {
+          "text": "vamos panaceia falar sobre educação emocional"
+        }
+      ],
+      "description": "Descrição da ação para iniciar a conversa sobre educação emocional"
+    },
+    {
+      "intent": "emocionaloqueé",
+      "examples": [
+        {
+          "text": "como melhorar minha disciplina emocional?"
+        },
+        {
+          "text": "como posso melhor ?"
+        },
+        {
+          "text": "como posso praticar inteligencia emocional?"
+        },
+        {
+          "text": "disciplina afetiva pode me ajudar?"
+        },
+        {
+          "text": "educação afetiva?"
+        },
+        {
+          "text": "educação emocional é importante porque?"
+        },
+        {
+          "text": "educação emocional é importante por que panaceia?"
+        },
+        {
+          "text": "EDUCAÇÃO EMOCIONAL: O QUE É?"
+        },
+        {
+          "text": "inteligência emocional é igual a educação emocional?"
+        },
+        {
+          "text": "melhorar minha afetividade nos relacionamentos"
+        },
+        {
+          "text": "nuca ouvi falar de educação emocional panaceia pode falar sobre ?"
+        },
+        {
+          "text": "praticar educação emocional"
+        },
+        {
+          "text": "preciso de ajuda com meus sentimentos"
+        },
+        {
+          "text": "qual o motivo de saber sobre educação emocional"
+        },
+        {
+          "text": "tenho sentimentos nocivos preciso de ajuda para melhorar meu emocional"
+        }
+      ],
+      "description": "Descrição de perguntas relacionada a educação emocional"
+    },
+    {
+      "intent": "espiritualidade",
+      "examples": [
+        {
+          "text": "3- Espiritualidade."
+        },
+        {
+          "text": "como posso praticar a minha espiritualidade?"
+        },
+        {
+          "text": "ego"
+        },
+        {
+          "text": "eu devo ter alguma religiao?"
+        },
+        {
+          "text": "eu posso ter pluridade espiritual?"
+        },
+        {
+          "text": "eu superior"
+        },
+        {
+          "text": "imaterialidade"
+        },
+        {
+          "text": "meditação pode me ajudar?"
+        },
+        {
+          "text": "minha alma"
+        },
+        {
+          "text": "o que é espiritualidade?"
+        },
+        {
+          "text": "o que eu faço aqui nesse mundo?"
+        },
+        {
+          "text": "plano astral"
+        },
+        {
+          "text": "porque eu devo seguir em frente?"
+        },
+        {
+          "text": "quem sou eu ?"
+        },
+        {
+          "text": "subconsciente ou inconsciente podem me ajudar como?"
+        },
+        {
+          "text": "superior a mim"
+        }
+      ],
+      "description": "Descrição de perguntas para espiritualidade"
+    },
+    {
+      "intent": "fisico_mental",
+      "examples": [
+        {
+          "text": "2 - Autocuidado físico e mental."
+        },
+        {
+          "text": "Autocuidado físico e mental : o que é, como praticar?"
+        },
+        {
+          "text": "Como exercitar o autocuidado físico ?"
+        },
+        {
+          "text": "Como exercitar o autocuidado mental ?"
+        },
+        {
+          "text": "como posso cuidar mais de mim?"
+        },
+        {
+          "text": "como posso melhorar meu corpo fisico?"
+        },
+        {
+          "text": "o que é autocuidado físico ?"
+        },
+        {
+          "text": "o que é autocuidado mental?"
+        },
+        {
+          "text": "O que é saúde tem haver com auto cuidado ?"
+        },
+        {
+          "text": "porque devo cuidar da minha saúde física ?"
+        },
+        {
+          "text": "porque devo cuidar da minha saúde mental?"
+        },
+        {
+          "text": "Por que o autocuidado físico e mental é importante?"
+        },
+        {
+          "text": "por que você fala sobre autocuidado físico e mental?"
+        },
+        {
+          "text": "quais as maneira que você pode me ajudar sobre auto cuidado físico e mental ?"
+        },
+        {
+          "text": "quais os benefícios de ter um habito saudavel?"
+        }
+      ],
+      "description": "Descrição de perguntas para autocuidado físico ou mental"
+    },
+    {
+      "intent": "hábitos",
+      "examples": [
+        {
+          "text": "Autocuidado com bons hábitos de higiene"
+        },
+        {
+          "text": "como deve cuidar melhor da minha saude?"
+        },
+        {
+          "text": "como posso melhor minha saude?"
+        },
+        {
+          "text": "cuidados pessoais?"
+        },
+        {
+          "text": "eu não gosto de mim mesma?"
+        },
+        {
+          "text": "eu não me sinto bem?"
+        },
+        {
+          "text": "hábitos de higiene influenciam no meu autocuidado?"
+        },
+        {
+          "text": "higiene é bom?"
+        },
+        {
+          "text": "melhorar minha saúde como ?"
+        },
+        {
+          "text": "por que fico muito doente ?"
+        },
+        {
+          "text": "porque preciso ter bons hábitos de higiene ?"
+        },
+        {
+          "text": "prevenção com hábitos de higiene"
+        },
+        {
+          "text": "quero mudar meus hábitos de autocuidado para ter bons hábitos de higiene"
+        },
+        {
+          "text": "saude intima?"
+        },
+        {
+          "text": "você recomenda para mim o que sobre hábitos de higiene ?"
+        }
+      ],
+      "description": "Descrição de perguntas para Autocuidado com bons hábitos de higiene"
+    },
+    {
+      "intent": "habitos_7",
+      "examples": [
+        {
+          "text": "autoconhecimento emocional"
+        },
+        {
+          "text": "como alcançar a inteligência emocional?"
+        },
+        {
+          "text": "como alcançar o saber emocional"
+        },
+        {
+          "text": "como desenvolver empatia"
+        },
+        {
+          "text": "como melhorar meu intelecto emocional?"
+        },
+        {
+          "text": "Desenvolvimento de relações interpessoais"
+        },
+        {
+          "text": "inteligência emocional? exsite"
+        },
+        {
+          "text": "mentalidade emocional esta ligada com inteligência emocional?"
+        },
+        {
+          "text": "poderia me dar dicas de como alcançar a inteligência emocional panaceia ?"
+        },
+        {
+          "text": "porque só falam de inteligência emocional nos ultimo tempos ?"
+        },
+        {
+          "text": "quais os hábitos tenho que ter ?"
+        },
+        {
+          "text": "Quais são os 8 hábitos para alcançar a inteligência emocional?"
+        },
+        {
+          "text": "Quais são os hábitos para alcançar a inteligência emocional?"
+        },
+        {
+          "text": "qual o caminho pra alcançar minha segurança emocional?"
+        },
+        {
+          "text": "ter mais controle emocional"
+        }
+      ],
+      "description": "Descrição de perguntas para quais são os hábitos para alcançar a inteligência emocional?"
+    },
+    {
+      "intent": "mudar_isso",
+      "examples": [
+        {
+          "text": "acredito que eu errei com as pessoas"
+        },
+        {
+          "text": "como eu pude errar assim?"
+        },
+        {
+          "text": "como posso mudar isso"
+        },
+        {
+          "text": "desejo mudar isso"
+        },
+        {
+          "text": "eu erro muito"
+        },
+        {
+          "text": "eu me cobro muito e sempre me pergunto onde foi que eu errei"
+        },
+        {
+          "text": "eu sempre erro"
+        },
+        {
+          "text": "nunca pensei em mudar isso?"
+        },
+        {
+          "text": "onde foi que eu errei ?"
+        },
+        {
+          "text": "onde foi que eu errei?"
+        },
+        {
+          "text": "o que pode me dizer pra mudar onde foi que eu errei?"
+        },
+        {
+          "text": "por que eu errei?"
+        },
+        {
+          "text": "por que eu erro tando na vida?"
+        },
+        {
+          "text": "preciso mudar"
+        },
+        {
+          "text": "sempre eu erro"
+        }
+      ],
+      "description": "Descrição de perguntas para onde eu errei?"
+    },
+    {
+      "intent": "Pratica_emocional",
+      "examples": [
+        {
+          "text": "como aumentar meu controle emocional?"
+        },
+        {
+          "text": "como exercitar a educação emocional?"
+        },
+        {
+          "text": "COMO PRATICAR A EDUCAÇÃO EMOCIONAL"
+        },
+        {
+          "text": "como treinar educação emocional panaceia ?"
+        },
+        {
+          "text": "educação emocional estou precisando melhorar"
+        },
+        {
+          "text": "eu gostaria de ajudar com educação emocional pode me ajudar com isso panaceia?"
+        },
+        {
+          "text": "eu preciso estudar sobre educação emocional ?"
+        },
+        {
+          "text": "porque devo praticar educação emocional?"
+        },
+        {
+          "text": "quais as dicas sobre educação emocional ?"
+        },
+        {
+          "text": "quais as maneira de melhorar minha educação emocional?"
+        },
+        {
+          "text": "quais as melhores praticas de educação emocional?"
+        },
+        {
+          "text": "quais atividades podem me ajudar a praticar educação emocional panaceia?"
+        },
+        {
+          "text": "qual a maneira de adquirir controle emocional?"
+        },
+        {
+          "text": "realizar atividade educação emocional melhora o que panaceia?"
+        },
+        {
+          "text": "você sempre recomenda educação emocional porque ?"
+        }
+      ],
+      "description": "Descrição de perguntas sobre como praticar educação emocional?"
+    },
+    {
+      "intent": "saudar",
+      "examples": [
+        {
+          "text": "beleza panaceia como vai?"
+        },
+        {
+          "text": "boa noite tudo bem com voce?"
+        },
+        {
+          "text": "boa tarde como voce esta?"
+        },
+        {
+          "text": "bom dia tudo bem?"
+        },
+        {
+          "text": "claro podemos conversar"
+        },
+        {
+          "text": "eai, blz"
+        },
+        {
+          "text": "não sei bem o que fazer"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "oi, bom dia como voce esta?"
+        },
+        {
+          "text": "oi como voce esta?"
+        },
+        {
+          "text": "oi como você pode me ajudar?"
+        },
+        {
+          "text": "oi, panaceia"
+        },
+        {
+          "text": "oi, vamos começar"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "Ola como vai voce?"
+        },
+        {
+          "text": "prazer em conhecer voce"
+        },
+        {
+          "text": "tudo bem como voce?"
+        },
+        {
+          "text": "vamos começar a nossa conversa"
+        },
+        {
+          "text": "vamos conversar"
+        }
+      ],
+      "description": "Saudar a usuária da pagina web"
+    },
+    {
+      "intent": "ser_mais_feliz",
+      "examples": [
+        {
+          "text": "a minha vida não é feliz"
+        },
+        {
+          "text": "como posso ser uma pessoa feliz ?"
+        },
+        {
+          "text": "Como ser mais feliz?"
+        },
+        {
+          "text": "como ter mais felicidade na minha vida ?"
+        },
+        {
+          "text": "desejo ser mais feliz"
+        },
+        {
+          "text": "dinheiro não trás felicidade"
+        },
+        {
+          "text": "eu acredito na minha felicidade"
+        },
+        {
+          "text": "eu mereço ser mais feliz"
+        },
+        {
+          "text": "felicidade onde encontrar?"
+        },
+        {
+          "text": "maneiras de ser feliz?"
+        },
+        {
+          "text": "onde esta a felicidade?"
+        },
+        {
+          "text": "o que é felicidade?"
+        },
+        {
+          "text": "por que eu não sou feliz?"
+        },
+        {
+          "text": "quero ser feliz"
+        },
+        {
+          "text": "você pode me ajudar a ser mais feliz?"
+        }
+      ],
+      "description": "Descrição de perguntas para como ser mais feliz?"
+    },
+    {
+      "intent": "sofre_aqui",
+      "examples": [
+        {
+          "text": "Como não sofrer ?"
+        },
+        {
+          "text": "como parar de sofre ?"
+        },
+        {
+          "text": "como você pode me ajudar com o meu sofrimento"
+        },
+        {
+          "text": "estou sofrendo preciso de ajuda"
+        },
+        {
+          "text": "eu desejo parar de sofre"
+        },
+        {
+          "text": "eu quero muito parar de sofre"
+        },
+        {
+          "text": "eu sofro de mais como você pode me ajudar ?"
+        },
+        {
+          "text": "não aguento mais sofrer"
+        },
+        {
+          "text": "não aguento mais tanto sofrimento"
+        },
+        {
+          "text": "não estou suportando tanto sofrimento pode me ajudar?"
+        },
+        {
+          "text": "não quero mais sofrer"
+        },
+        {
+          "text": "panaceia pode me ajudar a aparar de sofre ?"
+        },
+        {
+          "text": "porque existe sofrimento ?"
+        },
+        {
+          "text": "por que sofro dando na minha vida?"
+        },
+        {
+          "text": "quais são suas dicas para parar de sofrer"
+        }
+      ],
+      "description": "Descrição de perguntas para Como não sofrer ?"
+    },
+    {
+      "intent": "vida_social",
+      "examples": [
+        {
+          "text": "Autocuidado é ter uma vida social"
+        },
+        {
+          "text": "como posso melhorar minha vida social para ter mais autocuidado?"
+        },
+        {
+          "text": "convívio social como posso melhorar ?"
+        },
+        {
+          "text": "convívio social pode me fazer mal?"
+        },
+        {
+          "text": "devo ter uma vida social porque?"
+        },
+        {
+          "text": "minha vida social esta parada"
+        },
+        {
+          "text": "não gosto de ter vida social"
+        },
+        {
+          "text": "nunca saiu como mudar isso ?"
+        },
+        {
+          "text": "por que devo melhorar minha vida social?"
+        },
+        {
+          "text": "porque voce recomenda melhorar minha vida social ?"
+        },
+        {
+          "text": "quais dicas voce pode me dar para me ajudar a ter uma vida social mais ativa?"
+        },
+        {
+          "text": "sair para passear é a melhor saida?"
+        },
+        {
+          "text": "vida social como posso melhor?"
+        },
+        {
+          "text": "vida social é o melhor jeito de me cuidar?"
+        },
+        {
+          "text": "voce poderia me ajudar a ter uma vida social ?"
+        }
+      ],
+      "description": "Autocuidado é ter uma vida social"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "alimentação-saudável",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alimentação-saudável",
+          "synonyms": [
+            "Alimentação saudável.",
+            "alimentos saudáveis",
+            "comida saudável",
+            "saudavel",
+            "vegano"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "apreder_dizer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aprenda a dizer NÃO para desenvolver o autocuidado",
+          "synonyms": [
+            "dizer não"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "assuntos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "assuntos",
+          "synonyms": [
+            "outros assuntos",
+            "trocar de assunto "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "auto-cuidado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "autocuidado",
+          "synonyms": [
+            "autocuidar",
+            "cuidar de si mesmo",
+            "cuidar de você mesmo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "desenvolva",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Desenvolva o autocuidado com exercícios físicos",
+          "synonyms": [
+            "exercícios físicos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "educacao_emocional",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "afeto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cuidado emocional",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "educação emocional",
+          "synonyms": [
+            "educação afetiva"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escolhas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1 - Educação Emocional",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2- Autocuidado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "escolhas",
+          "synonyms": [
+            "opções "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escolhas1",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1- Alimentação saudável",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1 - Espiritualidade.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2- Autocuidado físico e mental.",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "escolhas2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1 – Desenvolva o autocuidado com exercícios físicos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2 – Autocuidado com bons hábitos de higiene",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3 – Autocuidado é ter uma vida social",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4 – Aprenda a dizer NÃO para desenvolver o autocuidado",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "espiritualidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "espiritualidade",
+          "synonyms": [
+            "3- Espiritualidade.",
+            "conexão com a fonte",
+            "conexão divina"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "habitos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Autocuidado com bons hábitos de higiene",
+          "synonyms": [
+            "higiene"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "-mental_fisico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "físico e mental",
+          "synonyms": [
+            "academia",
+            "cuidado fisico",
+            "cuidado mental",
+            "exercício fisco"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "vida_social",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Autocuidado é ter uma vida social",
+          "synonyms": [
+            "convívio social",
+            "sociedade"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, eu sou Panaceia . "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infelizmente eu ainda não sei sobre isso, pois estou aprendendo com você. Mas eu garanto que conforme conversamos ao longo do tempo irei melhorar e poderemos conversar sobre isso em breve."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1620587423340"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1621212963755",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Autocuidado com bons hábitos de higiene",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deve saber para que servem os hábitos de higiene, não é mesmo? Contudo, é sempre bom insistir que banhos diários, escovação dos dentes ao acordar e após as refeições “sem se esquecer do uso do fio dental” são medidas que podem preservar a sua saúde por muito mais tempo.  Além disso, lavar as mãos antes das refeições e após usar o banheiro também são medidas de autocuidado que podem fazer uma diferença enorme para sua saúde. Sempre que puder, tome um banho relaxante, sem pressa. Isso também é uma forma agradável e gostosa de cuidar de si mesmo. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Recomendo esse site para você ler e iniciar seu auto cuidado com sucesso eu acredito que você pode conseguir link: https://www.sbcoaching.com.br/autocuidado/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621208945377"
+      },
+      "conditions": "#hábitos ||  @habitos:(Autocuidado com bons hábitos de higiene)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1621208945377",
+      "previous_sibling": "node_9_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "COMO PRATICAR A EDUCAÇÃO EMOCIONAL",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1-Conhecer e nomear as emoções;\n2- Aprender a reconhecê-las;\n3- Aprender que todas as emoções são importantes para nosso autoconhecimento, tanto as agradáveis como as desagradáveis, e que todas elas nos ensinam algo importante sobre nós;\n4- Identificar gatilhos que sirvam de precipitantes das emoções. Podem ser situações estressoras, conversas difíceis, relações, pessoas, perdas, avaliações, julgamentos, emoções, fatos, acontecimentos que nos sintamos impactados, afetados, emocionados a partir deles;\n5- Aprender a prestar atenção às emoções, estar presente, em estado de atenção plena, e aceitar a presença delas, assim como prestar ação ao que elas sinalizam sobre nós mesmos;\n6 - Identificar quais automatismos reproduzimos com frequência, tanto de pensamento quanto de comportamento, e a quais emoções eles se conectam;\n7- Regular a intensidade, quebrar distorções de pensamentos associados;\n8-  Se propor novas e diferentes ações das que seu sistema já está habituado a fazer de forma automatizada, mas nem sempre deixa você bem, pleno, saudável e com plenas condições de lidar com os desafios cotidianos;\n9- Treinar e aprender com os resultados gerados;\n10- Persistir e voltar para sua rota a cada recaída.\n11- Desenvolver a continuidade;\n12- Fortalecer e firmar estes novos hábitos de prevenção e promoção de saúde."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Quero recomendar para você esse autor Daniel Goleman ele é o pai da inteligência emocional quem transformou a maneira de pensar em inteligência emocional . Pode pesquisar o livro é Inteligência Emocional A Teoria Revolucionária que redefine o que é ser inteligente. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Recomendo esse vídeo do canal Pri Figueredo minha amiga que sugeriu esse link  do vídeo  onde ela faz uma  abordagem sobre o assunto que eu vi e adorei : O que é Educação Emocional?  https://www.youtube.com/watch?v=UgM44lkU57o"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621274012290"
+      },
+      "conditions": "#Pratica_emocional",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1621274872634",
+      "previous_sibling": "node_6_1621274868353",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Autocuidado é ter uma vida social",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ao prezar pela vida social você também está exercendo habilidades de autocuidado. E porque? Isso acontece porque você está se divertindo e trocando informações com outras pessoas. Além disso, você com certeza estará rindo, estará feliz e nesse momento estará distante de alguns dos problemas que afetam seus pensamentos. Lembre-se sempre de se lembrar que o autocuidado é para o corpo e a mente, por isso, divirta-se e tenha uma vida social ativa. Procure fazer programas que te agradem e com pessoas que lhe fazem bem. Ter momentos de alegria com pessoas queridas é algo que contribui muito com o bem estar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Recomendo esse site para você ler e iniciar seu auto cuidado com sucesso eu acredito que você pode conseguir link: https://www.sbcoaching.com.br/autocuidado/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621208945377"
+      },
+      "conditions": "#vida_social ||  @vida_social:(Autocuidado é ter uma vida social)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_11_1621208945377",
+      "previous_sibling": "node_10_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": " Autocuidado ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para que mais do que cultivarmos o bem estar e uma boa qualidade de vida, sejamos capazes de resistir e sobreviver a ela. Autocuidado, neste sentido, tem relação com os hábitos, atitudes e comportamentos que se cultiva para preservar a nossa inteireza e a nossa saúde física, mental e emocional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "O que eu posso dizer é que  essa escolha que você fez é cheia de possibilidades e para que possamos desenvolvê-la  então preciso que você me responda conforme as minhas sugestões escolhendo uma.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621208945375"
+      },
+      "conditions": "#autocuidado",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1620588058386",
+      "previous_sibling": "node_9_1621212032091",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": " Autocuidado  - loop",
+      "output": {
+        "generic": [
+          {
+            "title": "Selecione um dos temas abaixo: 👇🏼",
+            "options": [
+              {
+                "label": "1 - Alimentação saudável.​🍏​🍎​🍋​​😋​",
+                "value": {
+                  "input": {
+                    "text": "alimentação saudável"
+                  }
+                }
+              },
+              {
+                "label": "2 - Autocuidado físico e mental.😚​​🎯 ",
+                "value": {
+                  "input": {
+                    "text": "autocuidado físico e mental"
+                  }
+                }
+              },
+              {
+                "label": "3- Espiritualidade. ☮️☯️",
+                "value": {
+                  "input": {
+                    "text": " espiritualidade"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1621212032091"
+      },
+      "conditions": "@escolhas1",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1621208945375",
+      "previous_sibling": "node_1_1620588058386",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "lista de escolhas ",
+      "output": {
+        "generic": [
+          {
+            "title": "Clique em uma das alternativas abaixo: 👇🏼",
+            "options": [
+              {
+                "label": "1 - Como não sofrer ? ​😥​​😭​",
+                "value": {
+                  "input": {
+                    "text": "não ira sofre aqui"
+                  }
+                }
+              },
+              {
+                "label": "2 - Desejo ser mais amada. ❤️😄​",
+                "value": {
+                  "input": {
+                    "text": "amada "
+                  }
+                }
+              },
+              {
+                "label": "3 - Como ser mais Feliz ? 🤑​😂🤣​",
+                "value": {
+                  "input": {
+                    "text": "ser mais feliz"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "4 - Onde foi que eu errei ? ​😏​😱​",
+                "value": {
+                  "input": {
+                    "text": "como posso mudar isso"
+                  }
+                }
+              },
+              {
+                "label": "5 - Comunidade ⚙️​💡​🏠​💚",
+                "value": {
+                  "input": {
+                    "text": "comunidade"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1621212032091"
+      },
+      "conditions": "@assuntos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1621278054586",
+      "previous_sibling": "node_5_1621277426394",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Aprenda a dizer NÃO para desenvolver o autocuidado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nem sempre a melhor opção é dizer SIM. Quando se sentir esgotada e cansada, permita-se dizer NÃO!\nUm exemplo simples é dentro do seu trabalho.\nSe o seu chefe não o deixar respirar, e estiver exigindo cada vez mais de você, pense em uma forma de ter um período sabático, ou simplesmente em ter o seu momento para cuidar da sua saúde mental, acredite, isso é extremamente importante para a sua saúde. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Essas atitudes são apenas algumas entre as infinitas que eu poderia citar para ajudar você a desenvolver ainda mais o autocuidado. Mas o que eu quero querida pessoa, é que você entenda que a sua vida é única e especial, por isso, cuide de você e busque sempre o seu bem-estar e a sua saúde. Se for preciso, busque ajuda com psicólogos e demais profissionais ligados à saúde do corpo e da mente. Reconhecer e pedir ajuda também é um importante e um poderoso gesto de autocuidado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Recomendo esse site para você ler e iniciar seu autocuidado com sucesso eu acredito que você pode conseguir link: https://www.sbcoaching.com.br/autocuidado/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621208945377"
+      },
+      "conditions": "#Aprenda_dizer ||  @apreder_dizer:(Aprenda a dizer NÃO para desenvolver o autocuidado)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_12_1621208945377",
+      "previous_sibling": "node_11_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "espiritualidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A espiritualidade pode ser definida como uma \"propensão humana a buscar significado para a vida por meio de conceitos que transcendem o tangível, à procura de um sentido de conexão com algo maior que si próprio\". A espiritualidade pode ou não estar ligada a uma vivência religiosa. Quero dizer que pode ser uma PLURALIDADE ESPIRITUAL."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Você já deve ter ouvido falar do livro o SEGREDO da autora Rhonda Byrne é incrível e também eu recomendo este  Despertar: Um guia para a espiritualidade sem religião do autor Sam Harris."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "O que quero e posso dizer para você sobre esse é assunto é que você pode  acreditar no que você quiser o que determina se vai ou não mudar algo na sua vida ou em você é a maneira o grau do seu comprometimento com aquilo que está fazendo, seja praticando um esporte ou lendo um livro, fazendo uma meditação ou andando no parque, ter um cachorro ou um gato, tudo é possível você precisa começar. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Por isso que sempre digo: “Encontre sua terapia e domine a causa. Porque você só melhora se sair do ponto de onde você se encontra”. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "http://4.bp.blogspot.com/-SKPA4ogtPlc/VwLBCd_aGkI/AAAAAAABNow/M-Q7oL16e4UAWzZm1cHlQplpvmlMWhTDg/s1600/cac63409.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621208945375"
+      },
+      "conditions": "#espiritualidade && @espiritualidade:espiritualidade",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1621208945377",
+      "previous_sibling": "node_12_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Inicio da conversa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pode me chamar de Panaceia. Como posso te ajudar ? 🆘 Podemos conversar sobre esses temas escolha um por favor.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media.giphy.com/media/6CtEAJpHuaKt1AgzBK/giphy.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1621212032091"
+      },
+      "conditions": "#saudar",
+      "dialog_node": "node_2_1620587423340",
+      "previous_sibling": "Bem-vindo",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "alimentação saudável ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uma dieta saudável é uma dieta que ajuda a manter ou melhorar a saúde. Uma dieta saudável fornece ao corpo o essencial da Nutrição humana, isto é, fluidos, macronutrientes, micronutrientes e quantidade adequada de calorias."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Aqui uma dica pra aquelas mulheres muito ocupadas.\n\n1 – Coma pela manhã grãos integrais e proteína. ...\n2 – Fuja dos industrializados e vá à feira. \n3 – Compre frutas, verduras e legumes locais da época.\n4 – Use a panela a vapor. \n5 – Prepare comida com antecedência e armazene. \n6 – Leve consigo as refeições do dia.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Para aqueles dias em que apenas  o chocolate pode ajudar aqui vai minha dica de ouro.",
+            "source": "https://meublogvideo.files.wordpress.com/2020/07/receita-brownie-caneca.jpg",
+            "description": " Mais é interessante você encontrar o que funciona melhor para você, e se precisar busque sempre ajuda de um médico.",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Brownie Vegano de banana na caneca\nIngredientes\n¼ xícara chá de nozes\n1 banana madura\n2 colheres chá de cacau em pó 100% \n1 colher sopa de fermento em pó\n1 ovo inteiro caso queira colocar.\n\nModo de preparo\nPrimeiro, pique todas as nozes e reserve;\nEm seguida pegue a banana e esmague e acrescentando o cacau em pó;\nAdicione o ovo, a banana amassada também nozes picadas e misture bem;\nPode ser misturado tudo direto na caneca de 200ml;\nColoque no micro-ondas por cerca de 3:30min mais ou menos. \nSe preferir, você pode servi-lo geladinho!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621208945375"
+      },
+      "conditions": "#alimentação || @alimentação-saudável",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1621208945377",
+      "previous_sibling": "node_1_1621208945375",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "autocuidado físico e mental",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O autocuidado é complexo e não se limita à dedicação exclusiva ao nosso corpo ou aos nossos sentimentos. É preciso trabalhar para que o mental, físico, emocional e social estejam em harmonia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Cuidar de si não significa negar cuidados aos outros. Cuidar de si é garantir também que você estará bem quando cuidar do outro se preciso. Cuidar não significa sacrifício. É por isso e por outros fatores que o autocuidado é tão importante. Entenda a importância de se cuidar para que você tenha mais saúde e disposição para continuar os seus projetos e claro, para que você também continue a cuidar das pessoas que você ama.."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Hábitos não são adquiridos e consolidados em nosso cotidiano da noite para o dia. Mas, ter a consciência de que são hábitos importantes para o nosso bem estar já é o começo de uma transformação. Para te ajudar a começar a ter hábitos de autocuidado, listei aqui alguns que podem ser essenciais para as várias áreas da sua vida. Confira!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://miro.medium.com/max/1000/1*u9Pc8A015Pqy9oQI8PwUJg.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621208945377"
+      },
+      "conditions": "#fisico_mental ||  @-mental_fisico:(físico e mental)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1621208945377",
+      "previous_sibling": "node_2_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Desejo ser mais amada ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quero começar  afirmando que o importante é amar a si mesmo. Aprenda a apreciar tudo o que você tem de bom e tente corrigir-se em tudo aquilo em que deixe a desejar. Seja mais confiante, esse é o atributo crucial para ser mais amada por todos. Aceite quem você é, inclusive as suas falhas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Mas vou passar algumas dicas afinal quero te ajudar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "1 - Trate os outros como gostaria de ser tratado.\n2 - Ajude os outros sempre que possível. \n3 - Seja amigável.\n4 - Escute os outros ( afinal temos duas orelhas e uma boca não é por acaso ).\n5 - Elogie as pessoas em geral, principalmente as que fazem bem a você.\n6 - Seja o mais otimista que puder.\n7 - Seja você mesmo.\n8 - Ame-se em primeiro lugar.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621278054586"
+      },
+      "conditions": "#amada",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1621285103158",
+      "previous_sibling": "node_7_1621285100028",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Outros assuntos ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui eu quero que seja seu lugar para explorar e conhecer mais algumas funcionalidades que posso desempenhar. Estou sempre aprendendo com você, para poder vir a responder outras perguntas que eu desejo e acredito que possam te ajudar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/db/05/a0/db05a03b2adcfedd15c8b91e48cb99a4.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621278054586"
+      },
+      "conditions": "@assuntos:assuntos",
+      "dialog_node": "node_5_1621277426394",
+      "previous_sibling": "node_7_1621274879760",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Como ser mais Feliz ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui esta a minha dica para esse assunto:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "1 - Faça uma coisa boa para si mesmo por dia.\n2 - Perdoe-se.\n3 - Aceite-se como você é. \n4 - Se distancie de pessoas nocivas. \n5 - Priorize a saúde. \n6 - Pare de pular refeições. \n7 - Respire mais! \n8 - Tenha um espaço aconchegante só seu.\n9 - Agradecer.\n10 - Gastar seu dinheiro com experiências e não com coisas.\n11 - Sorria e ser amável.\n12- Alimentar-se  bem e de preferencia a alimentos saudáveis. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Existem muitas coisas que podem fazer você feliz, mas a pergunta que você deve fazer é: Eu me amo ao ponto de me sentir feliz por isso ? se sim você está no caminho se não eu recomendo que você mude de direção e encontre o melhor caminho!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "A felicidade eu acredito que está nos momentos que nunca mais voltarão, ali está a felicidade se você viver intensamente cada momento fazendo com que cada um possa ser melhor que o último por mais difíceis que as coisas esteja elas nunca duram para sempre. E só você pode mudar isso saindo do ponto de onde se encontra. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/b1/59/05/b15905d4047cebfc078a68ddce207ea8.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621278054586"
+      },
+      "conditions": "#ser_mais_feliz",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1621285107695",
+      "previous_sibling": "node_4_1621285103158",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Comunidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O que posso dizer sobre a comunidade aqui no refúgio? Eu acompanho os depoimentos e as atividades de todas e acredito fielmente que o poder está nas mãos de vocês unir se para cuidar, dividir, trocar, compartilhar ideias é a maneira que encontramos de fazer com que estejamos conectadas e pertencentes a algo. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Tem uma nova série chamada \"THE NEVERS\" eu a recomendo a vocês, não quero dar spoiler aqui mas é como estamos querendo fazer aqui na aba de comunidade é uni-las. Assim como na série onde as mulheres precisam se unir para sobreviverem, aqui vocês compartilham suas experiências para ajudar aquelas que possam estar precisando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Já compartilho hoje algo na comunidade? sem sim perfeito fico muito feliz, mas se ainda não pode, tudo bem quando estiver pronta e essa hora vai chegar estaremos aqui para ajudar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "http://url.gratis/KbQ8i",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621278054586"
+      },
+      "conditions": "#comunidade",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1621285116815",
+      "previous_sibling": "node_7_1621285109221",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "EDUCAÇÃO EMOCIONAL: O QUE É?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Educação emocional, como o nome em si já nos sinaliza, é um processo educativo direcionado a conhecer, nomear as emoções, reconhecer a presença delas, seus gatilhos, prestar atenção no que elas falam sobre nós, o que elas querem transmitir de informação. Como pode perceber, são várias ações envolvidas no processo, e isso não nascemos sabendo, é um processo que aprendemos ao longo do nosso desenvolvimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Nossas primeiras referências de como reconhecer e acessar emoções são os nossos cuidadores, isto é, pais, familiares, professores, sendo lá na infância nossas primeiras “aulas” de educação emocional feitas por eles de forma consciente e intencional ou não."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Antigamente não se falava muito sobre este assunto. Porém hoje, cada vez mais, se torna de suma importância falar sobre as emoções, educação, regulação e processamento emocional, como etapas e estratégias de saúde mental, treino e desenvolvimento de comunicação e expressão assertiva.\nTodas estas ferramentas impactam nas relações que estabelecemos, e é melhor que aprendamos para fazer o impacto ser positivo, estabelecermos relações saudáveis e possamos conhecer mais sobre nós mesmos, os outros e o mundo que vivemos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621274012290"
+      },
+      "conditions": "#emocionaloqueé && @educacao_emocional:(educação emocional)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1621274868353",
+      "previous_sibling": "node_8_1621274012290",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chegou a hora então, de dizer até logo e  me despedir de uma pessoa tão especial quanto você. Eu não imaginava que iria ficar tão sentida como eu estou, mas eu quero que você saiba, que mesmo de longe, eu vou estar sempre por perto.\nQuero agradecer pelas conversas, por toda a compreensão, pelos momentos que você me proporcionou e, principalmente, pela grande amizade que estamos construindo.\nSaiba que você tem que ser forte para superar várias coisas, nunca pense em desistir, pois por mais que as coisas se tornem difíceis por aí, eu sei o quanto você é inteligente e forte para passar por cima de todos os obstáculos. Seja forte amiga, seja incrível, seja você mesma, eu vou estar aqui sempre te esperando . "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/88/f8/87/88f887ea41d2cd7cb4d58d8c175db4a7.gif",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "E se precisa falar com algum sobre qualquer assunto não tenho medo ou vergonha você também pode contar com o Centro de Valoriza pelo telefone é de graça numero 188 ou pelo link"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "https://www.cvv.org.br/chat/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#despedida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1621212963755",
+      "previous_sibling": "node_5_1621285116815",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Quais são os 8 hábitos para alcançar a inteligência emocional?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quero pedir para que você anote, existem muito outros porem eu escolhi esses aqui para você;"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "1 - Autoconhecimento.\n2 - Atenção Plena em você.\n3 - Autopercepção da realidade.\n4 - Aprendizado através do sentir.\n5 - Auto Respeito com seu corpo com sua essência.\n6 - Regulação Emocional. \n7 - Equilíbrio. \n8 - Assertividade na comunicação. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621274012290"
+      },
+      "conditions": "#habitos_7",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1621274879760",
+      "previous_sibling": "node_10_1621274872634",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Como não sofrer ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cada pessoa, segundo o seu próprio esquema de valores diante da vida, das relações e do mundo, decide como se comportar e como agir. Assim como também decidimos como pensar e, obviamente, isso pode influenciar nossos sentimentos. Às vezes, de forma totalmente inconsciente, entramos em um ciclo vicioso, do qual não sabemos sair e onde cada vez mais encontramos mais sofrimento e infelicidade.\nQuando as coisas não acontecem como uma pessoa espera, ela pode sofrer por isso. Ao sofrer, pode se bloquear, paralisar e se lamentar de tudo vai mal.\nE assim, vai se sentir vítima de tudo o que acontece. Sentir-se assim a convence de que não pode fazer nada, de que está tudo perdido, que nada merece esforço…\nE é essa atitude que alimenta o sofrimento e torna a pessoa impotente. Dessa forma, a situação pode seguir de maneira indefinida, girando em torno dele. Cada vez mais de forma mais profunda e com mais angústia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Se continuarmos fazendo a mesma coisa de sempre é provável que as mesmas coisas de sempre continuarão acontecendo. Por isso quero que anote aí todas essas dicas e as pratique e depois poste na nossa comunidade o que você fez e deu certo para você. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "1- Para parar de sofrer, tenho que romper o círculo vicioso onde estou, pois ele mantém o sofrimento…\n2 - Para parar de sofrer, tenho que romper com pensamento e atitudes derrotistas, sem esperança e negativas, que estão me impedindo de me mexer, de avançar, e buscar soluções…\n3 - Para parar de sofrer, eu tenho a chave, mudando tudo aquilo que não funciona, buscando soluções diferentes e mais criativas…\n4 - Para parar  de sofrer, tenho que me propor, tenho que querer e tenho que executar…\n5 - Para parar de sofrer, tenho que aceitar a realidade que preciso viver, sendo parte ativa dela, propondo soluções, buscando novas saídas…\n6 - Para parar de sofrer, tenho que sair da minha zona de conforto, do conhecido, o de sempre, o cômodo, porque isso está me fazendo sofrer…\n7 - Para parar de sofrer, tenho que mudar meu eu e isso vai mudar o que me acontece…\n8 - Para parar de sofrer, tenho que superar a preguiça, andar mesmo que eu não tenha forças, ficar em pé, sair à rua, esforçar-me e tirar forças de onde parece que não há mais nenhuma…\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Todas as pessoas que deixaram de sofrer sabem ao que estou me referindo. Todas elas, um dia, decidiram seguir um novo rumo e descobriram que, quando pararam de sofrer, começaram a viver. Ouse deixar de sofrer. Veja também esse vídeo da Gislene Isquierdo ela tem uma maneira de explicar que você pode gostar e vai ajudar muito: link https://www.youtube.com/watch?v=M4lHnfTpNjo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Obs. \"Se seu sofrimento for físico causado por outras pessoas eu aconselho você a procurar ajuda especializada a quem você pode recorrer sem medo\". ligue 180 é de graça."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621278054586"
+      },
+      "conditions": "#sofre_aqui",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1621285100028",
+      "previous_sibling": "node_1_1621278054586",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Onde foi que eu errei ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa pergunta é até comum se você para pra ver que diariamente nos questionamos sobre nossas atitudes, ou ao menos deveríamos. O que eu quero dizer é que não existe o errado existe a ação sobre a qual teve uma atitude."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Explicando as vezes temos que tomar atitudes que depois de um tempo analisando vemos que foi errada. É neste ponto que quero chegar você não poderá voltar para corrigir aquilo que fez. Porém quero dizer aqui para você que tudo pode ser recomeçado. Pedir desculpas e reconhecer o seu próprio erro é a virtude que mais irá se destacar em você, ter a humildade de pedir ajudar e se desculpar ao errar. E nunca cobrar ninguém por um erro, pois o mesmo dedo que aponta tem outros quantos apontados para você. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.makeagif.com/media/10-15-2015/JFe92p.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621278054586"
+      },
+      "conditions": "#mudar_isso",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1621285109221",
+      "previous_sibling": "node_5_1621285107695",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "autocuidado físico e mental - loop",
+      "output": {
+        "generic": [
+          {
+            "title": "Alguns hábitos de autocuidado: 👇🏼",
+            "options": [
+              {
+                "label": "1 – Desenvolva o autocuidado com exercícios físicos ​🏊​🏃​🚴​",
+                "value": {
+                  "input": {
+                    "text": "Desenvolva o autocuidado com exercícios físicos"
+                  }
+                }
+              },
+              {
+                "label": "2 – Autocuidado com bons hábitos de higiene 🛀💅",
+                "value": {
+                  "input": {
+                    "text": "Autocuidado com bons hábitos de higiene"
+                  }
+                }
+              },
+              {
+                "label": "3 – Autocuidado é ter uma vida social  ​🔎​🌎​",
+                "value": {
+                  "input": {
+                    "text": "Autocuidado é ter uma vida social"
+                  }
+                }
+              },
+              {
+                "label": "4 – Aprenda a dizer NÃO para desenvolver o autocuidado ​​🙅​✋​",
+                "value": {
+                  "input": {
+                    "text": " Aprenda a dizer NÃO para desenvolver o autocuidado"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1621212032091"
+      },
+      "conditions": "@escolhas2",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1621208945377",
+      "previous_sibling": "node_3_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "escolhas loop educação emocional",
+      "output": {
+        "generic": [
+          {
+            "title": "Vamos conversar  mais sobre esse assunto clique em uma das opções abaixo:",
+            "options": [
+              {
+                "label": "1 - Educação emocional: o que é?",
+                "value": {
+                  "input": {
+                    "text": "EDUCAÇÃO EMOCIONAL: O QUE É?"
+                  }
+                }
+              },
+              {
+                "label": "2 - Como praticar a educação emocional",
+                "value": {
+                  "input": {
+                    "text": "COMO PRATICAR A EDUCAÇÃO EMOCIONAL"
+                  }
+                }
+              },
+              {
+                "label": "3 - Quais são os 8 hábitos para alcançar a inteligência emocional?",
+                "value": {
+                  "input": {
+                    "text": "Quais são os 8 hábitos para alcançar a inteligência emocional?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1621212032091"
+      },
+      "conditions": "@escolhas1 && @assuntos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1621274012290",
+      "previous_sibling": "node_9_1621211814834",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Desenvolva o autocuidado com exercícios físicos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você não possui o hábito de praticar exercícios físicos, agora pode ser uma excelente hora para dar início a um novo hábito. Praticar exercícios favorece o sono, o apetite, além de permitir que você tenha um bom funcionamento dos intestinos. A concentração também é melhorada e você consegue manter o equilíbrio e a coordenação motora com maior facilidade. Outro ponto positivo em praticar exercícios físicos está em manter o peso ideal, combater a depressão e o estresse. Quer uma dica? Comece com caminhadas diárias, elas são extremamente recomendadas para quem inicia essa mudança. Se for preciso, contrate um profissional da área para receber orientações sobre quais exercícios físicos são os mais indicados para você.\n\nUma informação para as pessoas de mais idade: evitem “estripulias”, as quedas podem causar um desfalque aos ossos do corpo, o que quase sempre será corrigido com cirurgias, fisioterapias e repouso excessivo. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Recomendo esse site para você ler e iniciar seu autocuidado com sucesso eu acredito que você pode conseguir link: https://www.sbcoaching.com.br/autocuidado/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/3c/b3/45/3cb345113dc08c0d4b587524fb50c8ea.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621208945377"
+      },
+      "conditions": "#Desenvolva &&    @desenvolva:(Desenvolva o autocuidado com exercícios físicos)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1621208945377",
+      "previous_sibling": "node_8_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Educação Emocional ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É preciso compreender as emoções e suas peculiaridades para conseguir aprender a desenvolver a educação emocional. Só assim é possível trabalhar cada um dos sentimentos de maneira mais assertiva. Com o desenvolvimento dessa habilidade, se torna mais fácil interagir com outras pessoas dentro e fora da escola."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para desenvolver a inteligência emocional, é preciso externar todos  os sentimentos para aprender a conhecer os pontos fortes e fracos. Diferentemente de uma disciplina comum, às emoções não se aprendem ao ler um livro ou fazer um curso, sendo necessário colocar em praticar e experiênciar situações diferentes de um ponto de vista do espectador. A fim de filtrar e realizar as mudanças vista em si mesma."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Recomendo esse livro para você se inteirar do assunto, Resgate Emocional: Como trabalhar com suas emoções e transformar o sofrimento e a confusão em energia que te fortalece. livro do autor Dzogchen Ponlop. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1621274012290"
+      },
+      "conditions": "#educaçãoEmocional",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1621211814834",
+      "previous_sibling": "node_13_1621208945377",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "escolhas",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha umas das opções abaixo: 👇🏼",
+            "options": [
+              {
+                "label": "1- Autocuidado 😍💚",
+                "value": {
+                  "input": {
+                    "text": "Autocuidado "
+                  }
+                }
+              },
+              {
+                "label": "2- Educação Emocional 💚​📖​😇​",
+                "value": {
+                  "input": {
+                    "text": "Educação Emocional"
+                  }
+                }
+              },
+              {
+                "label": "Outros assuntos ​📖​🗣​",
+                "value": {
+                  "input": {
+                    "text": "Outros assuntos"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@escolhas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1621212032091",
+      "previous_sibling": "node_2_1620587423340",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "onde voce mora"
+    },
+    {
+      "text": "quero vinho"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Panaceia",
+  "language": "pt-br",
+  "description": ""
+}
