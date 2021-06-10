@@ -1,130 +1,222 @@
-# Integração entre WA + api do telegram + Node-Red
+# Integração entre WA + Node-Red
 Created for toolchain: https://cloud.ibm.com/devops/toolchains/1a106474-38bb-4c49-9b2f-ba25d2a05fa1?env_id=ibm:yp:us-south
-criando um fluxo no nodeRed integrando o watson assitant com a api do telegram 
+criando um fluxo no nodeRed integrando o watson assitant ao um site que estamos construindo para a  disciplina de web.
 
 CURSO SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS ATIVIDADE AVALIATIVA 
 DISCIPLINA: AI & CHATBOT ANO: 2021
 
 
-CHECKPOINT 1 - TESTE DE TURING CINÉFILO
+Este arquivo contém informações de um chatbot que se passa por um guia, dando dicas e informações pertinentes ao projeto multidisciplinar que estamos desenvolvendo na faculdade FIAP.
 
+CURSO SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS DOCUMENTO PARA A CHALLENGE
+TURMA: 1º. TDS – “A, F, G, H, J, R e S” ANO: 2021
 
-Suponha que  você  teve  um  problema e  quer  resolvê-lo apenas digitando, e resolve entrar  em  contato com  serviço do  SAC de  uma   empresa. Alguém te atende, resolve  seu  problema  e   no   ﬁm  da   conversa  há   um   formulário  para   avaliar   o atendimento.  Em  uma   das perguntas do  formulário de  atendimento há  a  seguinte questão:
 
+1.  Objetivo
 
+Capacitar o aluno a desenvolver um projeto, simulando a experiência profissional, utilizando técnicas, ferramentas, metodologias e boas práticas trabalhadas ao longo do curso de tecnologia.
 
-“Você acha que foi atendido  por um ser humano ou uma máquina?”
 
+2.  Normas Básicas
 
+1.  Números de integrantes por grupo: até 6 alunos
 
-Suponha que  você  responda foi atendido por um ser humano, mas na realidade o  tempo  todo   era  uma   máquina  ou  agente conversacional  falando  contigo.  Esse agente acabou de passar no famoso Teste de Turing!!
+2.  Não será permitido o desenvolvimento individual do projeto.
 
+3.  Os grupos têm obrigação de aceitar novos componentes.
 
+4.  Os componentes dos grupos, através do líder, poderão indicar a não atribuição da nota aos componentes do grupo que não participaram das atividades relativas ao projeto.
+5.  Os grupos devem idealizar os projetos a serem desenvolvidos ao longo do ano letivo, dividido em entregas parciais durante o 1º. e 2º. semestre.
+6.  As entregas serão parciais e divididas entre as disciplinas trabalhadas ao longo do ano. As solicitações são individuais, ou seja, feitas por cada disciplina.
+7.  Será realizada uma entrega ao final de cada sprint, a entrega deve conter todos os pedidos de todas as disciplinas.
 
-Como assim? O que é isso? De onde vem isso?
+3.  Responsabilidades
 
 
+Responsabilidades dos alunos
 
-Em  1950,  o  cientista  considerado  pai  da  computação,  publica   um  trabalho muito  importante, inclusive atualmente, com  o título “Computing machinery  and intelligence” (em  português Maquinário da  computação e inteligência) onde  ele faz a seguinte indagação:
+•  Ter ciência do documento da Challenge e cumprir as entregas conforme solicitação dos professores.
+•   Todos os componentes do grupo devem estar envolvidos em todas as disciplinas do projeto. Fica proibido e irá onerar a nota individual do aluno que desenvolver o conteúdo somente de uma das disciplinas, todos os alunos devem gerar artefatos de todas as disciplinas.
+•   Atentar-se a qualidade no desenvolvimento dos entregáveis.
 
 
+Responsabilidades dos Professores do Curso
 
-“As máquinas podem  pensar?”
+•   Responsáveis por orientar o desenvolvimento do projeto em suas disciplinas.
 
+•   A correção de cada entregável, é de responsabilidade do professor da disciplina em cada turma.
+•   Disponibilizar nota individual referente à disciplina.
 
 
-Quando   um   agente conversacional  tem   capacidade  de  simular comportamentos humanos sem  ser  distinguido  de  um  ser humano,  tal  máquina acabou de passar pelo Teste de Turing, e isso ﬁcou conhecido popularmente como “O Jogo da Imitação”.
 
+1/4
+CURSO SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS DOCUMENTO PARA A CHALLENGE
+TURMA: 1º. TDS – “A, F, G, H, J, R e S” ANO: 2021
 
 
-E o que eu, aluno da FIAP, tenho a ver com isso tudo?
+•   Manter   informações   no   grupo   de   professores   relativas   a   cada   grupo
 
+(compartilhar avaliação dos grupos)
 
+•   Manter  sua  solicitação  de  entrega  sempre  atualizada  para  o  grupo  de professores e alunos.
+•   Explicar detalhadamente entregável da disciplina e critérios de avaliação junto aos alunos
+•   Disponibilizar justificativa de nota aplicada ao grupo/aluno, quando se aplicar.
 
-Dentre   algumas  das tecnologias  mais  utilizadas  pelo  mercado de  trabalho estão os agentes conversacionais,  e  nós que  estamos interessados  em  aprender, desenvolver  e  aplicá-los  para   estarmos  aptos  para   trabalhar  e  construir  bons e humanizados  agentes,  temos que  colocar  em  prática  nosso conhecimento  e provar que sabemos fazer.
 
 
-Sendo  assim, sua missão nesse trabalho será criar um agente conversacional usando as ferramentas apresentadas em aula  que  passe em uma  versão simpliﬁcada do  Teste de  Turing, que  iremos chamar de  Teste de  Turing  Cinéﬁlo.  Neste teste, o computador deverá se passar por  algum  personagem do cinema, personagens estes escolhidos por vocês.
+Relação de professores responsáveis pela Challenge:
 
-No  ﬁnal  desse  semestre vocês entregarão um  Telegram do  seu personagem escolhido funcionando que deverá nos convencer de que é o personagem de verdade e não  uma  máquina,  sendo assim  façam a escolha  do  personagem conscientemente, pois não poderá ser mudada.
+•   1 TDS A, F, G, H, J, R e S
 
-A conclusão do  semestre é  ter  um  agente conversacional criado, revisado e integrado  por  vocês usando os  checkpoints  como sprints  de  um  projeto   ﬁnal  do semestre, ou seja, cada pedaço é extremamente importante. Legal né!?!?
+Professores Allen Fernando e José Henrique Cordeiro, gestão, planejamento e acompanhamento dos projetos.
 
+Professores Fernanda Caetano e José Henrique Cordeiro, scrum master, comunicação e orientação de entregas junto à IBM.
 
+Demais  professores  do  curso,  mentoria  e  acompanhamento  técnico  dos projetos.
 
-O que será avaliado?
 
+4.  Exigências a serem cumpridas em cada disciplina
 
-A avaliação será baseada na profundidade do conhecimento prático e, obviamente, o quanto seu personagem se parece com o personagem real.
 
-Além disso, a compreensão sobre intenções e entidades devem ser claras, bem como a  aplicação da  técnica de  construção de  diálogos utilizando as boas práticas apresentadas ao longo  do curso para  sempre otimizar  a experiência que o usuário terá ao conversar com o personagem.
 
+4.1. AI & Chatbot
 
+•    1ª Entrega: Um documento PDF
 
-Quem fará?
+Descrição da solução proposta pelo grupo para o desafio (Challenge).
 
+Descrição de como agentes conversacionais podem auxiliar na solução do projeto.
+Descrição de uma proposta de solução um problema usando o Watson
 
-O trabalho poderá ser feito individualmente ou em dupla 2, não recomendamos fazê-lo individualmente, pois é muito  importante discutirem, testarem e chegarem em um consenso sobre o trabalho.
+Assistant como parte da solução do desafio.
 
-A experiência  com  grupos maiores  é que  nem  todo  mundo executa e isso  é muito   importante  para   a   próxima   etapa  desse  trabalho  que   será  sequencial  e cumulativo, como citado anteriormente.
+Essa entrega será apenas escrita, ou seja, em formato PDF.
 
 
 
-O que precisa ser implementado?
+•   2ª Entrega: O arquivo JSON do Watson Assistant
 
+o Definição de 5 intenções e seus respectivos exemplos:
 
-De acordo com  os temas e personagens escolhidos por vocês, chegamos a seguinte lista de personagens elegíveis:
+Explicar o propósito da definição de cada intenção proposta na própria descrição do Watson Assistant.
+Cada intenção deverá contar um mínimo de 15 exemplos.
 
+o Não serão contabilizadas intenções de saudações e despedidas.
 
-PERSONAGENS Batman (Bruce Wayne)
-Coringa
 
-Homem de Ferro (Tony Stark) Harry Potter
-Naruto
+2/4
+CURSO SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS DOCUMENTO PARA A CHALLENGE
+TURMA: 1º. TDS – “A, F, G, H, J, R e S” ANO: 2021
 
-Mulher Maravilha (Diana)
 
+Definição de 3 entidades e seus respectivos sinônimos:
 
+Explicar o propósito da definição de cada entidade proposta na própria descrição do Watson Assistant.
+Cada entidade deve conter pelo menos 3 sinônimos.
 
-Vocês deverão escolher um personagem dentre os 6 mais votados que estão na tabela acima para  criar e personiﬁcar o personagem que  passará no Teste de Turing Cinéﬁlo do 1TDS-2021.
+Não serão aceitas entidades do tipo "sim", "não" e "ok".
 
-A implementação da capacidade de entender e responder via texto do seu personagem escolhido deverá ser feita através do serviço Watson Assistant da IBM.
+Essa entrega será composta apenas pelo JSON do Watson Assistant.
 
-Para  garantir  que  seu personagem passe no nosso Teste de Turing (e quem  sabe no
-Teste de Turing real), você pode  se guiar pelos seguintes cenários:
 
+4.2. Agile Software Design
 
-1.   Cenários:
+•   1ª Entrega:
 
-●   Personagem deve apresentar-se e induzir a continuidade da conversa;
+Termo de Abertura de Projeto (TAP), contendo:
 
-●   Personagem deve convencer com estilo de fala (Jargão, por exemplo) que o personagem é de verdade;
+▪   Justificativa e Objetivo do Projeto (entendimento do problema)
 
-●   O  personagem  deve   induzir  o  usuário  a  fazer   alguma  pergunta  sobre especíﬁca sobre ele;
+▪   Escopo do Projeto (delimitação do escopo e interações)
 
-●   O personagem  deverá conseguir  responder com  conﬁança e  destreza a alguma pergunta especíﬁca induzida  no Cenário genérico;
+▪   Premissas identificadas
 
-●   O personagem deverá ser capaz de escapar de maneira inteligente e versátil de perguntas que não fazem sentido;
+▪   Escopo preliminar do produto/solução
 
+▪   Cronograma das atividades previstas para o primeiro semestre
 
+(da ativação do projeto até a 2ª entrega)
 
+▪   Equipe envolvida
 
-2.   Dicas e orientações:
+▪   Restrições e Riscos
 
-Sabemos  que   é  extremamente  difícil  construir  um  agente/assistente  que  não  se pareça com  uma  máquina, mas é  possível fazer  isso para  uma  quantia limitada  de perguntas  e  com   alguma  indução  na  conversa (lembre-se  do  primeiro   chatbot,  o psicoterapeuta Eliza, que  fazia  mais perguntas do que  respostas - inclusive você pode testá-lo   em   inglês   aqui    https://web.njit.edu/~ronkowit/eliza.html)  .  A  seguir,   vão algumas dicas:
+Os ítens Escopo do Projeto e Escopo do Produto deverão seguir padrão que será apresentado oportunamente pelos professores.
+•   2ª Entrega:
 
-●   Testem com  o maior  número possível de pessoas - você  está fazendo um super-herói, o público infantil pode  ser um excelente público de teste;
+Backlog do projeto (contexto funcional) contendo:
 
-●   Usem um número mínimo de frases por intenção;
+▪   Estórias do Usuário
 
-●   Tenham uma quantia equilibrada de frases por intenção;
+▪   Diagrama de Caso de Uso formalizando o escopo do produto
 
-●   Abusem de entidades para  ajudar  na desambiguação;
+▪   Planejamento de Sprints (atividades até a entrega final)
 
-●   Não criem diálogos com muitas camadas;
 
-●   Variáveis  de  contexto podem tornar  seu personagem mais  inteligente  e a conversa parecerá mais humana.
 
+4.3. Computational Thinking using Python
 
+•   Não haverá entregas no 1º. semestre.
+
+
+4.4. Database Modeling & SQL
+
+•   1ª Entrega:
+
+Descrever o objetivo da solução definida pelo grupo e quais são as informações necessárias a persistir.
+o Relação das principais entidades e atributos necessários para a
+
+solução proposta.
+
+
+
+
+3/4
+CURSO SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS DOCUMENTO PARA A CHALLENGE
+TURMA: 1º. TDS – “A, F, G, H, J, R e S” ANO: 2021
+
+
+•   2ª Entrega:
+
+A Relação das entidades e atributos propostos revisados na primeira entrega. Definição de chave primária para cada entidade proposta, descrição dos atributos propostos, informando: atributos compostos e multivalorados e a indicação do conteúdo a ser armazenado (texto, número ou data).
+o Modelo entidade relacionamento preliminar: contendo entidades e atributos, chave primária e indicação de atributos opcionais e mandatórios.
+
+
+4.5. Domain Driven Design
+
+•   1ª Entrega:
+
+Modelagem das classes do projeto.
+
+•   2ª Entrega:
+
+Criação do projeto Java com as classes e atributos de cada.
+
+Construtores, getters e setters.
+
+uma classe principal com o teste das demais.
+
+
+4.6. Responsive Web Development
+
+•   1ª Entrega:
+
+Organograma com o fluxo de navegação do sistema:
+
+▪   Uma  apresentação(pptx)  onde  seja  possível  enxergar  a navegação  do  sistema  como  um  todo,  descrevendo  a
+funcionalidade de cada página.
+
+•   2ª Entrega:
+
+Telas do Sistema (navegável):
+
+▪   Criar as telas do sistema de forma que seja possível enxergar as funcionalidades e a integração entre cada uma delas. As telas devem ser criadas em HTML5/CSS3/JS e BOOTSTRAP.
+
+
+5.  Entregas primeiro semestre
+
+•   1ª Entrega: 04/04/2021 – Via portal do Aluno
+
+•   2ª Entrega: 16/05/2021 - Via portal do Aluno
 
 
